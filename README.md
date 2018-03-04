@@ -1,5 +1,5 @@
 # generator-config-postcss (`@veams/generator-config-postcss`)
-> Sub-Generator :: Simple CSS Framework Configuration Generator.
+> Sub-Generator :: Simple PostCSS Configuration Generator.
 
 ## Sub-Generators in Veams 
 
@@ -30,7 +30,7 @@ This is pretty easy, let's just compose them:
 
 **Main Generator** 
 
-``` nodejs
+``` js
 module.exports = class extends Generator {
 	prompting() {
 		// Have Yeoman greet the user.
